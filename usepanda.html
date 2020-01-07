@@ -29,16 +29,8 @@
   <body>
   <!-- Navbar: Default-->
   <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page.-->
-  <header class="navbar-wrapper navbar-sticky">
-    <div class="d-table-cell align-middle pr-md-3"><a class="navbar-brand mr-1" href="index.html"><strong>RAOUFBLK</strong></a></div>
-    <div class="d-table-cell w-100 align-middle pl-md-3">
-      <div class="navbar-top d-none d-lg-flex justify-content-between align-items-center">
-        <div><a class="navbar-link mr-3" href="mailto:raoufbelakhdarph@gmail.com"><i class="fe-icon-mail"></i>raoufbelakhdarph@gmail.com</a>
-          <a class="social-btn sb-style-3 sb-instagram" href="#"><i class="socicon-instagram"></i></a>
-          <a class="social-btn sb-style-3 sb-dribbble" href="https://dribbble.com/Braouf"><i class="socicon-dribbble"></i></a>
-        </div>
-      </div>
-    </div>
+  <header class="navbar-wrapper navbar-sticky d-flex justify-content-center">
+    <div class="d-table-cell align-middle pr-md-3 py-2"><a class="navbar-brand mr-1" style="width:200px;" href="index.html"><img src="img/logo.png" alt="figmaland"/></a></div>
   </header>
     <!-- Page Title-->
     <div class="page-title d-flex" aria-label="Page title" style="background-image: url(img/Snowy.jpg);min-height: initial;">
@@ -58,82 +50,261 @@
       <div class="row">
         <!-- Project Gallery-->
         <div class="col-lg-8 mb-3">
-          <a class="gallery-item mb-30" href="img/designsystem/usepanda/usepanda.jpg" data-fancybox="sideGallery" data-options="{&quot;caption&quot;: &quot;Gallery Image Caption&quot;}"><img src="img/designsystem/usepanda/usepanda.jpg" alt="Gallery Image"/></a>
+          <a class="gallery-item mb-30"  style="border-radius: 10px; border: 2px solid #eee;overflow: hidden;" href="img/designsystem/usepanda/usepanda.jpg" data-fancybox="sideGallery" data-options="{&quot;caption&quot;: &quot;Gallery Image Caption&quot;}"><img src="img/designsystem/usepanda/usepanda.jpg" alt="Gallery Image"/></a>
         </div>
         <!-- Project Details-->
         <div class="col-lg-4">
           <div class="widget">
-            <h2 class="widget-title">Panda</h2>
+            <h2 class="widget-title">Website</h2>
             <p class="text-muted">Panda is the simple free news reader. Discover the best tools, resources and inspiration in the world of design and tech.</p>
-            <a href="https://usepanda.com/" target="_blank">usepanda.com</a>
+            <a class="landing_url" href="https://usepanda.com/" target="_blank">usepanda.com</a>
           </div>
           <div class="widget">
-            <h2 class="widget-title">Use Panda Design resources</h2>
-              <div>
+            <h2 class="widget-title">Design resources</h2>
+              <div class="colors_palette mb-4">
                 <strong class="d-block mb-2">Color Palette</strong>
-                <a class="gallery-item mb-30" href="img/designsystem/usepanda/color-guide.png" data-fancybox="sideGallery" data-options="{&quot;caption&quot;: &quot;Gallery Image Caption&quot;}">
-                  <img src="img/designsystem/usepanda/color-guide.png" alt="Gallery Image"/>
-                </a>
+                <div class="table-responsive">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th>#</th>
+                        <th>Color Name</th>
+                        <th>Color Hex</th>
+                      </tr>
+                    </thead>
+                    <tbody style="color: white;">
+                      <tr style="background-color: #254151;">
+                        <th scope="row">1</th>
+                        <td>Primary</td>
+                        <td>#254151</td>
+                      </tr>
+                      <tr style="background-color: #7AA8C9;">
+                        <th scope="row">2</th>
+                        <td>Secondary</td>
+                        <td>#7AA8C9</td>
+                      </tr>
+                      <tr style="background-color: #846027;">
+                        <th scope="row">3</th>
+                        <td>Secondary</td>
+                        <td>#846027</td>
+                      </tr>
+                      <tr style="background-color: #B89477;">
+                        <th scope="row">4</th>
+                        <td>Secondary</td>
+                        <td>#B89477</td>
+                      </tr>
+                      <tr style="background-color: #243F50;">
+                        <th scope="row">5</th>
+                        <td>Main Text</td>
+                        <td>#243F50</td>
+                      </tr>
+                      <tr style="background-color: #919FA7;">
+                        <th scope="row">6</th>
+                        <td>Secondary text</td>
+                        <td>#919FA7</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <a href="#download"><i>Download the figma file below</i></a>
               </div>
-              <div>
-                <strong class="d-block mb-2">Typography</strong>
-                <a class="gallery-item mb-30" href="img/designsystem/usepanda/typo.png" data-fancybox="sideGallery" data-options="{&quot;caption&quot;: &quot;Gallery Image Caption&quot;}">
-                  <img src="img/designsystem/usepanda/typo.png" alt="Gallery Image"/>
-                </a>
-              </div>
-              <div>
-                <strong class="d-block mb-2">components</strong>
-                <a class="gallery-item mb-30" href="img/designsystem/usepanda/component.png" data-fancybox="sideGallery" data-options="{&quot;caption&quot;: &quot;Gallery Image Caption&quot;}">
-                  <img src="img/designsystem/usepanda/component.png" alt="Gallery Image"/>
-                </a>
+              <div class="typography mb-4">
+                <strong class="d-block pb-3" style="border-bottom: 1px solid #e7e7e7;">Typography</strong>
+                <div class="table-responsive">
+                  <p class="d-block pt-2">Font Face : <strong>Avenir</strong></p>
+                  <hr>
+                  <table class="table">
+                    <thead class="thead-dark">
+                      <tr>
+                        <th></th>
+                        <th>Font Family</th>
+                        <th>Font Weight</th>
+                        <th>Font Size</th>
+                        <th>Line Height</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">H1</th>
+                        <td>Roboto</td>
+                        <td>Black</td>
+                        <td>72</td>
+                        <td>74</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">H2</th>
+                        <td>Roboto</td>
+                        <td>Black</td>
+                        <td>34</td>
+                        <td>40</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">H3</th>
+                        <td>Roboto</td>
+                        <td>Black</td>
+                        <td>22</td>
+                        <td>28</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">H4</th>
+                        <td>Roboto</td>
+                        <td>Heavy</td>
+                        <td>28</td>
+                        <td>32</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">H5</th>
+                        <td>Roboto</td>
+                        <td>Heavy</td>
+                        <td>18</td>
+                        <td>24</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">H6</th>
+                        <td>Roboto</td>
+                        <td>Heavy</td>
+                        <td>20</td>
+                        <td>28</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">P</th>
+                        <td>Roboto</td>
+                        <td>Heavy</td>
+                        <td>22</td>
+                        <td>38</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">A</th>
+                        <td>Roboto</td>
+                        <td>Black</td>
+                        <td>18</td>
+                        <td>24</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <a href="#download"><i>Download the figma file below</i></a>
               </div>
           </div>
           <div class="widget">
-              <p class="text-muted"><i style="display:inline-block;height: 50px;width: 50px;"><img src="img/Figma.png" alt="FIGMA"></i></p>
+            <h2 class="widget-title">Components</h2>
+              <div class="elem_list mb-4">
+                <strong class="tag-link">Buttons</strong>
+                <strong class="tag-link">Input</strong>
+                <strong class="tag-link">Mailing Liste Input</strong>
+                <strong class="tag-link">Call to action</strong>
+                <strong class="tag-link">Cards</strong>
+                <strong class="tag-link">Brands</strong>
+                <strong class="tag-link">Featured Post</strong>
+              </div>
+              <strong class="">Preview :</strong>
+              <a class="gallery-item my-3" href="img/designsystem/usepanda/component.png" data-fancybox="sideGallery" data-options="{&quot;caption&quot;: &quot;Gallery Image Caption&quot;}">
+                <img src="img/designsystem/usepanda/component.png" alt="Gallery Image"/>
+              </a>
+              <a href="#download"><i>Download the figma file below</i></a>
           </div>
-          
-          <div class="widget mb-4">
+          <div class="widget">
+            <h2 class="widget-title">Overview</h2>
+            <p class="text-muted">The design of use panda is simple and elegant, 
+              it plays really well with typography, it uses the font face Open sans beautifully.
+              his light color palette and minimalist elements make the landing page breath 
+              and make their product look really cool.</p>
+              <p class="text-muted">We provided you with the color palette and the typography styles and sizes, 
+                such information is really useful when it comes to design a landing page for similar needs.</p>
+          </div>
+          <div class="widget">
+            <h2 class="widget-title">Highlights</h2>
+              <ul>
+                <li>
+                  <i class="fe-icon-check pr-1" style="color: rgb(47, 231, 23);"></i>
+                  Built for Figma
+                </li>
+                <li>
+                  <i class="fe-icon-check pr-1" style="color: rgb(47, 231, 23);"></i>
+                  Super-easy to Change Styles
+                </li>
+                <li>
+                  <i class="fe-icon-check pr-1" style="color: rgb(47, 231, 23);"></i>
+                  Minimal, Clean and Elegant  
+                </li>
+                <li>
+                  <i class="fe-icon-check pr-1" style="color: rgb(47, 231, 23);"></i>
+                  Colors Palette & how to apply it to your design
+                </li>
+                <li>
+                  <i class="fe-icon-check pr-1" style="color: rgb(47, 231, 23);"></i>
+                  Typography styles with details
+                </li>
+                <li>
+                  <i class="fe-icon-check pr-1" style="color: rgb(47, 231, 23);"></i>
+                  Ready to use components
+                </li>
+              </ul>
+          </div>
+          <div class="widget" id="download">
+            <h2 class="widget-title">Compatibility</h2>
+              <p class="text-muted">
+                <span class="d-block mb-4">This figma file contains a style guide and a design system inspired from "Getpanda" design. </span>
+                <i style="display:inline-block;height: 50px;width: 50px;"><img src="img/Figma.png" alt="FIGMA"></i>
+              </p>
+          </div>
+          <div class="widget mb-4" >
             <a class="btn btn-success mr-3 mb-3" href="https://www.dropbox.com/s/0yjy6rcm71meson/Panda%20Lp%20Design%20System.fig?dl=0" target="_blank">Download</a>
             <a class="btn btn-secondary mr-3 mb-3" href="https://www.figma.com/file/LGRmiU5bpIzsaKgZ5FgKBT/Panda-Lp-Design-System?node-id=0%3A1" target="_blank"><i class="fe-icon-eye"></i>Preview</a>
           </div>
           <div class="widget">
             <h2 class="widget-title">Tags</h2>
             <p class="text-muted">
-              <a class="tag-link" href="#">Design-System</a>
-              <a class="tag-link" href="#">Freebies</a>
-              <a class="tag-link" href="#">Figma</a>
-              <a class="tag-link" href="#">Landing Page</a>
-              <a class="tag-link" href="#">Download</a>
+              <strong class="tag-link">Figma resourses</strong>
+              <strong class="tag-link">landing pages design</strong>
+              <strong class="tag-link">landing pages inspiration</strong>
+              <strong class="tag-link">figma freebies</strong>
+              <strong class="tag-link">figma landing pages</strong>
+              <strong class="tag-link">figma design system</strong>
+              <strong class="tag-link">colors palettes</strong>
+              <strong class="tag-link">typography</strong>
+              <strong class="tag-link">figma components</strong>
+              <strong class="tag-link">figma web design</strong>
+              <strong class="tag-link">Figma UI design</strong>
+              <strong class="tag-link">UI design resources</strong>
+              <strong class="tag-link">landing pages inspiration</strong>
             </p>
         </div>
         </div>
       </div>
-      <!-- Project Share-->
-      <div class="d-sm-flex justify-content-between align-items-center border-top border-bottom mb-4 py-2">
-        <div class="py-2"><span class="dinline-block align-middle py-2 mr-2"><strong>Share:</strong></span><a class="social-btn sb-style-3 sb-facebook mb-0" href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="socicon-facebook"></i></a><a class="social-btn sb-style-3 sb-twitter mb-0" href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="socicon-twitter"></i></a><a class="social-btn sb-style-3 sb-pinterest mb-0" href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="socicon-pinterest"></i></a></div>
-        <div class="py-2"></div>
-        <div class="post-meta"><a class="text-md" href="#"><i class="fe-icon-heart text-accent"></i>&nbsp;40</a></div>
-      </div>
-      <!-- Entry Nanigation-->
-      <nav class="entry-navigation text-center">
-        <a class="back-btn" href="index.html"><i class="fe-icon-grid"></i></a>
-      </nav>
     </div>
-    <!-- Footer-->
-    <footer class="d-lg-flex ali gn-items-center bg-dark">
-      <div class="w-100 py-5 px-4">
-        <div class="mx-auto text-center" style="max-width: 340px;">
-          <h6 class="text-sm font-weight-medium text-white text-uppercase text-center">Want to hire us?</h6>
-          <ul class="list-unstyled text-white">
-            <li><span class='opacity-60'>Email:</span> raoufbelakhdarph@gmail.com</li>
-          </ul>
-          <div class="widget pt-3 mb-4">
-            <a class="social-btn sb-style-6 sb-dribbble sb-light-skin" href="https://dribbble.com/Braouf">
-              <i class="socicon-dribbble"></i>
-            </a>
-            <a class="social-btn sb-style-6 sb-instagram sb-light-skin" href="#">
-              <i class="socicon-instagram"></i>
-            </a>
+     <!-- Footer-->
+     <footer class="bg-dark">
+      <div class="pt-5" style="background-color: #30363d;">
+        <div class="container">
+          <div class="d-md-flex justify-content-between align-items-center py-4 text-center text-md-left">
+            <div class="order-2 pb-4">
+              <a class="footer-link text-white" href="index.html">Home</a>
+              <a class="footer-link text-white ml-3" href="mailto:hello@figmaland.com">Contact</a>
+            </div>
+            <div class="col-lg-4 pb-4 mb-2 order-1"><a class="navbar-brand d-inline-block mb-4" href="index.html"><img src="img/logo-light.png" alt="figmaland"></a>
+              <p class="text-sm text-white opacity-50">
+                Figma Landing Page's Design Resources<br>
+                Colors palettes, Typography Styles and ready to use Components.
+                Inspired from popular websites designs.
+              </p>
+              <ul class="list-icon text-sm pb-2">
+                <li><i class="fe-icon-mail text-white opacity-60"></i><a class="navi-link text-white" href="mailto:hello@figmaland.com">
+                     &nbsp;hello@figmaland.com</a></li>
+              </ul>
+              <a class="social-btn sb-style-6 sb-facebook sb-light-skin" href="#">
+                <i class="socicon-facebook"></i>
+              </a>
+              <a class="social-btn sb-style-6 sb-twitter sb-light-skin" href="#">
+                <i class="socicon-twitter"></i>
+              </a>
+              <a class="social-btn sb-style-6 sb-youtube sb-light-skin" href="#">
+                <i class="socicon-youtube"></i>
+              </a>
+              <a class="social-btn sb-style-6 sb-instagram sb-light-skin" href="#">
+                <i class="socicon-instagram"></i>
+              </a>
+            </div>
           </div>
         </div>
       </div>

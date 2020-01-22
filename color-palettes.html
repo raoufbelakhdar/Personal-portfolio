@@ -38,6 +38,7 @@
   </head>
   <!-- Body-->
   <body>
+    <!-- Navbar: Default-->
     <div class="offcanvas-container is-triggered offcanvas-container-reverse" id="mobile-menu"><span class="offcanvas-close"><i class="fe-icon-x"></i></span>
       <div class="px-4 pb-4">
         <h6>Menu</h6>
@@ -45,9 +46,9 @@
       <div class="offcanvas-scrollable-area border-top" style="height:calc(100% - 235px); top: 70px;">
         <!-- Mobile Menu-->
         <div class="accordion mobile-menu" id="accordion-menu">
-          <a class="mobile-menu-link active" href="index.html">Inspiration</a>
-          <a class="mobile-menu-link" href="color-palettes.html">Color Palettes</a>
-          <a class="mobile-menu-link" href="font-styles.html">Font styles</a>
+          <a class="mobile-menu-link" href="index.html">Inspiration</a>
+          <a class="mobile-menu-link active" href="color-palettes.html">Color Palettes</a>
+          <a class="mobile-menu-link " href="font-styles.html">Font styles</a>
           <a class="mobile-menu-link" href="wireframes.html">Wireframes</a>
         </div>
       </div>
@@ -61,8 +62,8 @@
           <div class="navbar justify-content-end">
             <!-- Main Menu-->
             <ul class="navbar-nav d-none d-lg-block">
-              <li class="nav-item mega-dropdown-toggle active"><a class="nav-link" href="index.html">Inspiration</a></li>
-              <li class="nav-item mega-dropdown-toggle"><a class="nav-link" href="color-palettes.html">Color Palettes</a></li>
+              <li class="nav-item mega-dropdown-toggle"><a class="nav-link" href="index.html">Inspiration</a></li>
+              <li class="nav-item mega-dropdown-toggle active"><a class="nav-link" href="color-palettes.html">Color Palettes</a></li>
               <li class="nav-item dropdown-toggle"><a class="nav-link" href="font-styles.html">Font styles</a></li>
               <li class="nav-item mega-dropdown-toggle"><a class="nav-link" href="wireframes.html">Wireframes</a></li>
             </ul>
@@ -75,12 +76,13 @@
         </div>
       </div>
     </header>
-    <!-- Page Title-->
+    <!-- Page Content-->
+    <!-- Hero-->
     <section class="bg-parallax bg-secondary py-5">
-      <div class="bg-parallax-img" data-parallax="{&quot;y&quot; : 100}"><img style="opacity: 0.08;" src="img/inspiration-background.jpg" alt="Parallax Background"/>
+      <div class="bg-parallax-img" data-parallax="{&quot;y&quot; : 100}"><img src="img/about-hero-bg.png" alt="Parallax Background"/>
       </div>
       <div class="container bg-parallax-content text-center">
-        <h1 class="pb-4 h2"><span class='d-block h5 font-family-body font-weight-light text-muted mb-2'>Best Landing Pages Around The Web</span>Landing Pages Inspiration</h1>
+        <h1 class="pb-4"><span class='d-block h5 font-family-body font-weight-light text-muted mb-2'>Ready to use</span>Color Palettes</h1>
       </div>
     </section>
     <!-- Page Content-->
@@ -90,41 +92,78 @@
         <div class="gutter-sizer"></div>
         <div class="grid-sizer"></div>
         <!-- Portfolio Item-->
-        <div class="grid-item design-system mb-30 col-md-4">
-          <div class="portfolio-card"><a class="portfolio-thumb" href="usepanda.html"><img src="img/designsystem/usepanda/Thumbnail.jpg" alt="Portfolio Thumbnail"/></a>
+        <div class="grid-item design-system mb-30 col-md-3">
+          <div class="portfolio-card color-palette-card">
+            <a class="portfolio-thumb" href="Cerulean.html">
+              <ul>
+                <li class="main-color" style="background-color: #254151;"><strong class="hex">#254151</strong></li>
+                <li class="second-color" style="background-color: #7AA8C9;"><strong class="hex">#7AA8C9</strong class="hex"></li>
+                <li class="second-color" style="background-color: #846027;"><strong class="hex">#846027</strong class="hex"></li>
+                <li class="third-color" style="background-color: #B89477;"><strong class="hex">#B89477</strong class="hex"></li>
+                <li class="third-color" style="background-color: #243F50;"><strong class="hex">#243F50</strong class="hex"></li>
+              </ul>
+            </a>
             <div class="portfolio-card-body">
-              <h5 class="portfolio-title"><a href="usepanda.html">usepanda.com</a></h5>
-              <a class="tag-link" href="#">Design-System</a>
-              <a class="tag-link" href="#">Freebies</a>
-              <a class="tag-link" href="#">Figma</a>
-              <a class="tag-link" href="#">Landing Page</a>
-              <a class="tag-link" href="#">Download</a>
+              <h5 class="portfolio-title color-palette-title">
+                <a href="Cerulean.html">Cerulean</a>
+              </h5>
             </div>
           </div>
         </div>
         <!-- Portfolio Item-->
-        <div class="grid-item design-system mb-30 col-md-4">
-          <div class="portfolio-card"><a class="portfolio-thumb" href="usepanda.html"><img src="img/designsystem/usepanda/Thumbnail.jpg" alt="Portfolio Thumbnail"/></a>
+        <div class="grid-item design-system mb-30 col-md-3">
+          <div class="portfolio-card color-palette-card">
+            <a class="portfolio-thumb" href="Cerulean.html">
+              <ul>
+                <li class="main-color" style="background-color: #fd5e53;"><strong class="hex">#fd5e53</strong></li>
+                <li class="second-color" style="background-color: #f9fcfb;"><strong class="hex">#f9fcfb</strong class="hex"></li>
+                <li class="second-color" style="background-color: #b0eacd;"><strong class="hex">#b0eacd</strong class="hex"></li>
+                <li class="third-color" style="background-color: #192965;"><strong class="hex">#192965</strong class="hex"></li>
+                <li class="third-color" style="background-color: #bbcfff;"><strong class="hex">#bbcfff</strong class="hex"></li>
+              </ul>
+            </a>
             <div class="portfolio-card-body">
-              <h5 class="portfolio-title"><a href="usepanda.html">usepanda.com</a></h5>
-              <a class="tag-link" href="#">Design-System</a>
-              <a class="tag-link" href="#">Freebies</a>
-              <a class="tag-link" href="#">Figma</a>
-              <a class="tag-link" href="#">Landing Page</a>
-              <a class="tag-link" href="#">Download</a>
+              <h5 class="portfolio-title color-palette-title">
+                <a href="Cerulean.html">CARD UNI</a>
+              </h5>
             </div>
           </div>
         </div>
         <!-- Portfolio Item-->
-        <div class="grid-item design-system mb-30 col-md-4">
-          <div class="portfolio-card"><a class="portfolio-thumb" href="usepanda.html"><img src="img/designsystem/usepanda/Thumbnail.jpg" alt="Portfolio Thumbnail"/></a>
+        <div class="grid-item design-system mb-30 col-md-3">
+          <div class="portfolio-card color-palette-card">
+            <a class="portfolio-thumb" href="Cerulean.html">
+              <ul>
+                <li class="main-color" style="background-color: #192965;"><strong class="hex">#192965</strong></li>
+                <li class="second-color" style="background-color: #f0efef;"><strong class="hex">#f0efef</strong class="hex"></li>
+                <li class="second-color" style="background-color: #bbcfff;"><strong class="hex">#bbcfff</strong class="hex"></li>
+                <li class="third-color" style="background-color: #faafff;"><strong class="hex">#faafff</strong class="hex"></li>
+                <li class="third-color" style="background-color: #6a8caf;"><strong class="hex">#6a8caf</strong class="hex"></li>
+              </ul>
+            </a>
             <div class="portfolio-card-body">
-              <h5 class="portfolio-title"><a href="usepanda.html">usepanda.com</a></h5>
-              <a class="tag-link" href="#">Design-System</a>
-              <a class="tag-link" href="#">Freebies</a>
-              <a class="tag-link" href="#">Figma</a>
-              <a class="tag-link" href="#">Landing Page</a>
-              <a class="tag-link" href="#">Download</a>
+              <h5 class="portfolio-title color-palette-title">
+                <a href="Cerulean.html">Poliana Lopes</a>
+              </h5>
+            </div>
+          </div>
+        </div>
+        <!-- Portfolio Item-->
+        <div class="grid-item design-system mb-30 col-md-3">
+          <div class="portfolio-card color-palette-card">
+            <a class="portfolio-thumb" href="Cerulean.html">
+              <ul>
+                <li class="main-color" style="background-color: #6e5773;"><strong class="hex">#6e5773</strong></li>
+                <li class="second-color" style="background-color: #d45d79;"><strong class="hex">#d45d79</strong class="hex"></li>
+                <li class="second-color" style="background-color: #ea9085;"><strong class="hex">#ea9085</strong class="hex"></li>
+                <li class="third-color" style="background-color: #e9e2d0;"><strong class="hex">#e9e2d0</strong class="hex"></li>
+                <li class="third-color" style="background-color: #655c56;"><strong class="hex">#655c56</strong class="hex"></li>
+              </ul>
+            </a>
+            <div class="portfolio-card-body">
+              <h5 class="portfolio-title color-palette-title">
+                <a href="Cerulean.html">MFS</a>
+              </h5>
             </div>
           </div>
         </div>

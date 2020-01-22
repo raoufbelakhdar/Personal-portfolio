@@ -2,31 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>figmaland
+    <title>Single Project
     </title>
     <!-- SEO Meta Tags-->
-    <meta name="description" content="Figma design resources">
+    <meta name="description" content="Belakhdar Raouf - UI/UX DESIGNER">
     <meta name="keywords" content="Design resources, Freebies">
-    <meta name="author" content="figmaland">
+    <meta name="author" content="Belakhdar Raouf">
     <!-- Viewport-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon and Touch Icons-->
-    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" color="#343b43" href="safari-pinned-tab.svg">
+    <meta name="msapplication-TileColor" content="#603cba">
     <meta name="theme-color" content="#ffffff">
     <!-- Vendor Styles including: Font Icons, Plugins, etc.-->
     <link rel="stylesheet" media="screen" href="css/vendor.min.css">
@@ -38,6 +28,7 @@
   </head>
   <!-- Body-->
   <body>
+    <!-- Navbar: Default-->
     <div class="offcanvas-container is-triggered offcanvas-container-reverse" id="mobile-menu"><span class="offcanvas-close"><i class="fe-icon-x"></i></span>
       <div class="px-4 pb-4">
         <h6>Menu</h6>
@@ -45,9 +36,9 @@
       <div class="offcanvas-scrollable-area border-top" style="height:calc(100% - 235px); top: 70px;">
         <!-- Mobile Menu-->
         <div class="accordion mobile-menu" id="accordion-menu">
-          <a class="mobile-menu-link active" href="index.html">Inspiration</a>
-          <a class="mobile-menu-link" href="color-palettes.html">Color Palettes</a>
-          <a class="mobile-menu-link" href="font-styles.html">Font styles</a>
+          <a class="mobile-menu-link" href="index.html">Inspiration</a>
+          <a class="mobile-menu-link active" href="color-palettes.html">Color Palettes</a>
+          <a class="mobile-menu-link " href="font-styles.html">Font styles</a>
           <a class="mobile-menu-link" href="wireframes.html">Wireframes</a>
         </div>
       </div>
@@ -61,8 +52,8 @@
           <div class="navbar justify-content-end">
             <!-- Main Menu-->
             <ul class="navbar-nav d-none d-lg-block">
-              <li class="nav-item mega-dropdown-toggle active"><a class="nav-link" href="index.html">Inspiration</a></li>
-              <li class="nav-item mega-dropdown-toggle"><a class="nav-link" href="color-palettes.html">Color Palettes</a></li>
+              <li class="nav-item mega-dropdown-toggle"><a class="nav-link" href="index.html">Inspiration</a></li>
+              <li class="nav-item mega-dropdown-toggle active"><a class="nav-link" href="color-palettes.html">Color Palettes</a></li>
               <li class="nav-item dropdown-toggle"><a class="nav-link" href="font-styles.html">Font styles</a></li>
               <li class="nav-item mega-dropdown-toggle"><a class="nav-link" href="wireframes.html">Wireframes</a></li>
             </ul>
@@ -75,71 +66,78 @@
         </div>
       </div>
     </header>
-    <!-- Page Title-->
-    <section class="bg-parallax bg-secondary py-5">
-      <div class="bg-parallax-img" data-parallax="{&quot;y&quot; : 100}"><img style="opacity: 0.08;" src="img/inspiration-background.jpg" alt="Parallax Background"/>
-      </div>
-      <div class="container bg-parallax-content text-center">
-        <h1 class="pb-4 h2"><span class='d-block h5 font-family-body font-weight-light text-muted mb-2'>Best Landing Pages Around The Web</span>Landing Pages Inspiration</h1>
-      </div>
-    </section>
     <!-- Page Content-->
-    <div class="container-fluid main-content">
-      <!-- Grid-->
+    <!-- Page Title-->
+    <div class="page-title d-flex pt-3 pb-2" aria-label="Page title">
+      <div class="container-fluid text-left align-self-center">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html" style="color: #7bcaff;">Home</a>
+            </li>
+            <li class="breadcrumb-item"><a href="color-palettes.html" style="color: #7bcaff;">COLOR PALETTES</a>
+            </li>
+            <li class="breadcrumb-item">Poliana Lopes</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <!-- Page Content-->
+    <div class="container-fluid palette-content pt-4 pb-5">
       <div class="row">
-        <div class="gutter-sizer"></div>
-        <div class="grid-sizer"></div>
-        <!-- Portfolio Item-->
-        <div class="grid-item design-system mb-30 col-md-4">
-          <div class="portfolio-card"><a class="portfolio-thumb" href="usepanda.html"><img src="img/designsystem/usepanda/Thumbnail.jpg" alt="Portfolio Thumbnail"/></a>
-            <div class="portfolio-card-body">
-              <h5 class="portfolio-title"><a href="usepanda.html">usepanda.com</a></h5>
-              <a class="tag-link" href="#">Design-System</a>
-              <a class="tag-link" href="#">Freebies</a>
-              <a class="tag-link" href="#">Figma</a>
-              <a class="tag-link" href="#">Landing Page</a>
-              <a class="tag-link" href="#">Download</a>
+        <!-- Project Gallery-->
+        <div class="col-lg-8 mb-3">
+          <div class="portfolio-card color-palette-card">
+              <ul>
+                <li class="main-color" style="background-color: #192965;"><strong class="hex">#192965</strong></li>
+                <li class="second-color" style="background-color: #f0efef;"><strong class="hex">#f0efef</strong class="hex"></li>
+                <li class="second-color" style="background-color: #bbcfff;"><strong class="hex">#bbcfff</strong class="hex"></li>
+                <li class="third-color" style="background-color: #faafff;"><strong class="hex">#faafff</strong class="hex"></li>
+                <li class="third-color" style="background-color: #6a8caf;"><strong class="hex">#6a8caf</strong class="hex"></li>
+              </ul>
+            <div class="portfolio-card-body clearfix">
+              <h5 class="portfolio-title color-palette-title mt-2">Poliana Lopes</h5>
+              <a class="color-palette-download btn btn-style-4 btn-success btn-icon-right mr-2 " href="#"><i class="fe-icon-download"></i>FIGMA COLOR PALETTE</a>
             </div>
           </div>
+          <h5 class="pt-5">Description</h5>
+          <p class="text-muted pt-2 pr-4">We provided you with the color palette and the typography styles and sizes, 
+                such information is really useful when it comes to design a landing page for similar needs.</p>
         </div>
-        <!-- Portfolio Item-->
-        <div class="grid-item design-system mb-30 col-md-4">
-          <div class="portfolio-card"><a class="portfolio-thumb" href="usepanda.html"><img src="img/designsystem/usepanda/Thumbnail.jpg" alt="Portfolio Thumbnail"/></a>
-            <div class="portfolio-card-body">
-              <h5 class="portfolio-title"><a href="usepanda.html">usepanda.com</a></h5>
-              <a class="tag-link" href="#">Design-System</a>
-              <a class="tag-link" href="#">Freebies</a>
-              <a class="tag-link" href="#">Figma</a>
-              <a class="tag-link" href="#">Landing Page</a>
-              <a class="tag-link" href="#">Download</a>
-            </div>
+        <!-- Project Details-->
+        <div class="col-lg-4">
+          <div class="widget">
+            <h2 class="widget-title">Case Study</h2>
+            <a class="Landing-thumb gallery-item my-3" href="img/designsystem/usepanda/landing.jpg" data-fancybox="sideGallery" data-options="{&quot;caption&quot;: &quot;Gallery Image Caption&quot;}">
+              <img src="img/designsystem/usepanda/landing.jpg" alt="Gallery Image"/>
+            </a>
+            <p class="text-muted">Panda is the simple free news reader. Discover the best tools, resources and inspiration in the world of design and tech.</p>
+            <a class="landing_url" href="https://usepanda.com/" target="_blank">usepanda.com</a>
           </div>
+          <div class="widget" id="download">
+            <h2 class="widget-title">Compatibility</h2>
+              <p class="text-muted">
+                <i style="display:inline-block;height: 50px;width: 50px;"><img src="img/Figma.png" alt="FIGMA"></i>
+              </p>
+          </div>
+          <div class="widget">
+            <h2 class="widget-title">Tags</h2>
+            <p class="text-muted">
+              <strong class="tag-link">Figma resourses</strong>
+              <strong class="tag-link">figma freebies</strong>
+              <strong class="tag-link">figma design system</strong>
+              <strong class="tag-link">colors palettes</strong>
+            </p>
         </div>
-        <!-- Portfolio Item-->
-        <div class="grid-item design-system mb-30 col-md-4">
-          <div class="portfolio-card"><a class="portfolio-thumb" href="usepanda.html"><img src="img/designsystem/usepanda/Thumbnail.jpg" alt="Portfolio Thumbnail"/></a>
-            <div class="portfolio-card-body">
-              <h5 class="portfolio-title"><a href="usepanda.html">usepanda.com</a></h5>
-              <a class="tag-link" href="#">Design-System</a>
-              <a class="tag-link" href="#">Freebies</a>
-              <a class="tag-link" href="#">Figma</a>
-              <a class="tag-link" href="#">Landing Page</a>
-              <a class="tag-link" href="#">Download</a>
-            </div>
-          </div>
         </div>
       </div>
     </div>
-    <!-- Footer-->
-    <footer class="bg-dark">
+     <!-- Footer-->
+     <footer class="bg-dark">
       <div class="pt-5" style="background-color: #30363d;">
         <div class="container">
           <div class="d-md-flex justify-content-between align-items-center py-4 text-center text-md-left">
             <div class="order-2 pb-4">
               <a class="footer-link text-white" href="index.html">Home</a>
-              <a class="footer-link text-white ml-3" href="color-palettes.html">Color Palettes</a>
-              <a class="footer-link text-white ml-3" href="font-styles.html">Font styles</a>
-              <a class="footer-link text-white ml-3" href="wireframes.html">Wireframes</a>
               <a class="footer-link text-white ml-3" href="mailto:hello@figmaland.com">Contact</a>
             </div>
             <div class="col-lg-4 pb-4 mb-2 order-1"><a class="navbar-brand d-inline-block mb-4" href="index.html"><img src="img/logo-light.png" alt="figmaland"></a>

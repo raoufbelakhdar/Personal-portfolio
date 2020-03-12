@@ -36,26 +36,28 @@
       <div class="offcanvas-scrollable-area border-top" style="height:calc(100% - 235px); top: 70px;">
         <!-- Mobile Menu-->
         <div class="accordion mobile-menu" id="accordion-menu">
-          <a class="mobile-menu-link active" href="index.html">Inspiration</a>
+          <a class="mobile-menu-link" href="uikit.html">Ui Kit</a>
+          <a class="mobile-menu-link" href="templates.html">Templates</a>
+          <a class="mobile-menu-link active" href="designkit.html">Design kit</a>
           <a class="mobile-menu-link" href="color-palettes.html">Color Palettes</a>
           <a class="mobile-menu-link" href="font-styles.html">Font styles</a>
-          <a class="mobile-menu-link" href="wireframes.html">Wireframes</a>
         </div>
       </div>
       <div class="offcanvas-footer px-4 pt-3 pb-2 text-center"><a class="social-btn sb-style-3 sb-twitter" href="#"><i class="socicon-twitter"></i></a><a class="social-btn sb-style-3 sb-facebook" href="#"><i class="socicon-facebook"></i></a><a class="social-btn sb-style-3 sb-pinterest" href="#"><i class="socicon-pinterest"></i></a><a class="social-btn sb-style-3 sb-instagram" href="#"><i class="socicon-instagram"></i></a></div>
     </div>
     <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page.-->
-    <header class="navbar-wrapper navbar-boxed navbar-sticky">
+    <header class="navbar-wrapper navbar-boxed">
       <div class="container">
         <div class="d-table-cell align-middle pr-md-3"><a class="navbar-brand mr-1" href="index.html"><img src="img/logo.png" alt="figmaland"></a></div>
         <div class="d-table-cell w-100 align-middle pl-md-3">
           <div class="navbar justify-content-end">
             <!-- Main Menu-->
             <ul class="navbar-nav d-none d-lg-block">
-              <li class="nav-item mega-dropdown-toggle active"><a class="nav-link" href="index.html">Inspiration</a></li>
+              <li class="nav-item mega-dropdown-toggle"><a class="nav-link" href="uikit.html">Ui Kit</a></li>
+              <li class="nav-item mega-dropdown-toggle"><a class="nav-link" href="templates.html">Templates</a></li>
+              <li class="nav-item mega-dropdown-toggle active"><a class="nav-link" href="designkit.html">Design kit</a></li>
               <li class="nav-item mega-dropdown-toggle"><a class="nav-link" href="color-palettes.html">Color Palettes</a></li>
               <li class="nav-item dropdown-toggle"><a class="nav-link" href="font-styles.html">Font styles</a></li>
-              <li class="nav-item mega-dropdown-toggle"><a class="nav-link" href="wireframes.html">Wireframes</a></li>
             </ul>
             <div>
               <ul class="navbar-buttons d-inline-block align-middle">
@@ -81,83 +83,40 @@
       </div>
     </div>
     <!-- Page Content-->
-    <div class="container-fluid post-content pt-4 pb-5">
+    <div class="container-fluid post-content pt-4">
       <div class="row">
         <!-- Project Gallery-->
-        <div class="col-lg-8 mb-3">
+        <div class="col-lg-9 col-md-7 mb-3">
           <a class="gallery-item mb-30"  style="border-radius: 10px; border: 2px solid #eee;overflow: hidden;" href="img/designsystem/usepanda/landing.jpg" data-fancybox="sideGallery" data-options="{&quot;caption&quot;: &quot;Gallery Image Caption&quot;}"><img src="img/designsystem/usepanda/landing.jpg" alt="Gallery Image"/></a>
         </div>
         <!-- Project Details-->
-        <div class="col-lg-4">
+        <div class="col-lg-3 col-md-5 sidebar">
           <div class="widget">
-            <h2 class="widget-title">Website</h2>
-            <p class="text-muted">Panda is the simple free news reader. Discover the best tools, resources and inspiration in the world of design and tech.</p>
-            <a class="landing_url" href="https://usepanda.com/" target="_blank">usepanda.com</a>
-          </div>
-          <div class="widget">
-            <h2 class="widget-title">Design resources</h2>
-              <div class="colors_palette mb-4">
-                <strong class="d-block mb-2">Color Palette</strong>
-                <div class="table-responsive">
-                  <table class="table">
-                    <thead>
-                      <tr>
-                        <th>#</th>
-                        <th>Color Name</th>
-                        <th>Color Hex</th>
-                      </tr>
-                    </thead>
-                    <tbody style="color: white;">
-                      <tr style="background-color: #254151;">
-                        <th scope="row">1</th>
-                        <td>Primary</td>
-                        <td>#254151</td>
-                      </tr>
-                      <tr style="background-color: #7AA8C9;">
-                        <th scope="row">2</th>
-                        <td>Secondary</td>
-                        <td>#7AA8C9</td>
-                      </tr>
-                      <tr style="background-color: #846027;">
-                        <th scope="row">3</th>
-                        <td>Secondary</td>
-                        <td>#846027</td>
-                      </tr>
-                      <tr style="background-color: #B89477;">
-                        <th scope="row">4</th>
-                        <td>Secondary</td>
-                        <td>#B89477</td>
-                      </tr>
-                      <tr style="background-color: #243F50;">
-                        <th scope="row">5</th>
-                        <td>Main Text</td>
-                        <td>#243F50</td>
-                      </tr>
-                      <tr style="background-color: #919FA7;">
-                        <th scope="row">6</th>
-                        <td>Secondary text</td>
-                        <td>#919FA7</td>
-                      </tr>
-                    </tbody>
-                  </table>
+            <h2 class="widget-title mb-4">Design resources</h2>
+              <div class="colors_palette my-4">
+                <strong class="title d-block mb-2">Color Palette</strong>
+                <div>
+                  <ul>
+                    <li class="primary circle mr-2" style="background-color: #28C06E"></li>
+                    <li class="secondary-1 circle mr-2" style="background-color: #0DABE4"></li>
+                    <li class="secondary-2 circle mr-2" style="background-color: #5D0F91"></li>
+                    <li class="text-1 circle mr-2" style="background-color: #343434"></li>
+                    <li class="text-2 circle" style="background-color: #7B7B7B"></li>
+                  </ul>
                 </div>
-                <a href="#download"><i>Download the figma file below</i></a>
               </div>
-              <div class="typography mb-4">
-                <strong class="d-block pb-3" style="border-bottom: 1px solid #e7e7e7;">Typography</strong>
+              <div class="typography">
+                <strong class="title d-block pb-3" 
+                style="border-bottom: 1px solid #e7e7e7;">Type Face</strong>
                 <div class="table-responsive">
-                  <p class="d-block pt-2">Font Face : <strong>Avenir</strong></p>
+                  <p class="d-block pt-2">
+                    <a class="font-face-thumb" href="#">
+                      <span class="font-pict mr-2">F</span>
+                      <strong class="font-name">Lato , Aktiv Grotesk</strong>
+                    </a>
+                  </p>
                   <hr>
                   <table class="table">
-                    <thead class="thead-dark">
-                      <tr>
-                        <th></th>
-                        <th>Font Family</th>
-                        <th>Font Weight</th>
-                        <th>Font Size</th>
-                        <th>Line Height</th>
-                      </tr>
-                    </thead>
                     <tbody>
                       <tr>
                         <th scope="row">H1</th>
@@ -218,25 +177,22 @@
                     </tbody>
                   </table>
                 </div>
-                <a href="#download"><i>Download the figma file below</i></a>
+              </div>
+              <p class="text-muted figma-note">
+                <i class="mr-4" style="display:inline-block;height: 50px;width: 50px; float: left;"><img src="img/Figma.png" alt="FIGMA"></i>
+                <span class="d-block mb-4 text">Download the figma file. It contains a style guide and a design system inspired from "Getpanda" design. </span>
+              </p>
+              <div class="widget mb-4 doc-cta">
+                <div class="content">
+                  <button class="btn btn-success mr-3 mb-3" type="button" data-toggle="modal" data-target="#modalCentered">Download</button>
+                  <a class="btn btn-secondary mb-3" href="https://www.figma.com/file/LGRmiU5bpIzsaKgZ5FgKBT/Panda-Lp-Design-System?node-id=0%3A1" target="_blank"><i class="fe-icon-eye"></i>Preview</a>
+                </div>
               </div>
           </div>
           <div class="widget">
-            <h2 class="widget-title">Components</h2>
-              <div class="elem_list mb-4">
-                <strong class="tag-link">Buttons</strong>
-                <strong class="tag-link">Input</strong>
-                <strong class="tag-link">Mailing Liste Input</strong>
-                <strong class="tag-link">Call to action</strong>
-                <strong class="tag-link">Cards</strong>
-                <strong class="tag-link">Brands</strong>
-                <strong class="tag-link">Featured Post</strong>
-              </div>
-              <strong class="">Preview :</strong>
-              <a class="gallery-item my-3" href="img/designsystem/usepanda/components.jpg" data-fancybox="sideGallery" data-options="{&quot;caption&quot;: &quot;Gallery Image Caption&quot;}">
-                <img src="img/designsystem/usepanda/components.jpg" alt="Gallery Image"/>
-              </a>
-              <a href="#download"><i>Download the figma file below</i></a>
+            <h2 class="widget-title">Website</h2>
+            <p class="text-muted">Panda is the simple free news reader. Discover the best tools, resources and inspiration in the world of design and tech.</p>
+            <a class="landing_url" href="https://usepanda.com/" target="_blank">usepanda.com</a>
           </div>
           <div class="widget">
             <h2 class="widget-title">Overview</h2>
@@ -283,10 +239,7 @@
                 <i style="display:inline-block;height: 50px;width: 50px;"><img src="img/Figma.png" alt="FIGMA"></i>
               </p>
           </div>
-          <div class="widget mb-4" >
-            <a class="btn btn-success mr-3 mb-3" href="https://www.dropbox.com/s/0yjy6rcm71meson/Panda%20Lp%20Design%20System.fig?dl=0" target="_blank">Download</a>
-            <a class="btn btn-secondary mr-3 mb-3" href="https://www.figma.com/file/LGRmiU5bpIzsaKgZ5FgKBT/Panda-Lp-Design-System?node-id=0%3A1" target="_blank"><i class="fe-icon-eye"></i>Preview</a>
-          </div>
+
           <div class="widget">
             <h2 class="widget-title">Tags</h2>
             <p class="text-muted">
@@ -305,44 +258,49 @@
               <strong class="tag-link">landing pages inspiration</strong>
             </p>
         </div>
+        <div class="bg-dark row p-4"><a class="navbar-brand d-inline-block mb-4" href="index.html"><img src="img/logo-light.png" alt="figmaland"></a>
+          <p class="text-sm text-white opacity-50">
+            Figma Landing Page Design Resources<br>
+            Colors palettes, Typography Styles and ready to use Components.
+            Inspired from popular websites designs.
+          </p>
+          <ul class="list-icon text-sm pb-2">
+            <li><i class="fe-icon-mail text-white opacity-60"></i><a class="navi-link text-white" href="mailto:hello@figmaland.com">
+                 &nbsp;hello@figmaland.com</a></li>
+          </ul>
+          <br>
+        </div>
         </div>
       </div>
     </div>
-     <!-- Footer-->
-     <footer class="bg-dark">
-      <div class="pt-5" style="background-color: #30363d;">
-        <div class="container">
-          <div class="d-md-flex justify-content-between align-items-center py-4 text-center text-md-left">
-            <div class="order-2 pb-4">
-              <a class="footer-link text-white" href="index.html">Home</a>
-              <a class="footer-link text-white ml-3" href="mailto:hello@figmaland.com">Contact</a>
-            </div>
-            <div class="col-lg-4 pb-4 mb-2 order-1"><a class="navbar-brand d-inline-block mb-4" href="index.html"><img src="img/logo-light.png" alt="figmaland"></a>
-              <p class="text-sm text-white opacity-50">
-                Figma Landing Page's Design Resources<br>
-                Colors palettes, Typography Styles and ready to use Components.
-                Inspired from popular websites designs.
-              </p>
-              <ul class="list-icon text-sm pb-2">
-                <li><i class="fe-icon-mail text-white opacity-60"></i><a class="navi-link text-white" href="mailto:hello@figmaland.com">
-                     &nbsp;hello@figmaland.com</a></li>
-              </ul>
-              <a class="social-btn sb-style-6 sb-facebook sb-light-skin" href="#">
-                <i class="socicon-facebook"></i>
-              </a>
-              <a class="social-btn sb-style-6 sb-twitter sb-light-skin" href="#">
-                <i class="socicon-twitter"></i>
-              </a>
-              <a class="social-btn sb-style-6 sb-youtube sb-light-skin" href="#">
-                <i class="socicon-youtube"></i>
-              </a>
-              <a class="social-btn sb-style-6 sb-instagram sb-light-skin" href="#">
-                <i class="socicon-instagram"></i>
-              </a>
-            </div>
+    <!-- UI KIT-->
+    <section id="kit-cta" class="position-relative bg-center-top bg-no-repeat py-5" style="background-color: #2d3238;">
+      <div class="img-cover bg-auto d-none d-md-block" style="background-image: url(img/homepages/web-app-showcase/video-bg.jpg);"></div>
+      <div class="container bg-content pt-4 py-md-5">
+        <div class="row py-lg-5">
+          <div class="col-xl-5 col-lg-6 col-md-8 py-lg-5 my-lg-4 text-center text-md-left">
+            <h2 class="h1 text-white pb-4">Get started with the UI kit</h2>
+            <p class=" text-white">Get started with the kit</p>
+            <a class="video-player-button my-3 mr-2" href="https://player.vimeo.com/video/93641234?color=ac32e4&amp;title=0&amp;byline=0&amp;portrait=0" data-fancybox="" data-width="1000" data-height="563">
+              <i class="fe-icon-play"></i>
+            </a>
+            <span class="video-player-label text-white opacity-80 mr-4">Watch video!</span>
+            <a class="btn btn-style-4 btn-primary" href="uikit.html">Explore The Kit</a>
           </div>
         </div>
       </div>
+    </section>
+     <!-- Footer-->
+     <footer class="">
+        <div class="container">
+          <div class="d-md-flex justify-content-between align-items-center py-4 text-center text-md-left">
+            <div class="">
+              <a class="footer-link" href="index.html">Home</a>
+              <a class="footer-link ml-3" href="mailto:hello@figmaland.com">Contact</a>
+              <p style="font-size: 12px;">© 2020 Figmaland.com, All rights reserved</p>
+            </div>
+          </div>
+        </div>
     </footer>
     <!-- Back To Top Button--><a class="scroll-to-top-btn" href="#"><i class="fe-icon-chevron-up"></i></a>
     <!-- Backdrop-->
@@ -350,5 +308,45 @@
     <!-- JavaScript (jQuery) libraries, plugins and custom scripts-->
     <script src="js/vendor.min.js"></script>
     <script src="js/theme.min.js"></script>
+    <script>
+      var sidebar = $(".sidebar");
+          $(function() {
+              
+              $(window).scroll(function() {    
+                  var scroll = $(window).scrollTop();
+                  if (scroll >= 160) {
+                    sidebar.addClass("fixed-stat");
+                  } else {
+                    sidebar.removeClass("fixed-stat");
+                  }
+              });
+          });
+          function isOnScreen(elem) {
+      // if the element doesn't exist, abort
+      if( elem.length == 0 ) {
+        return;
+      }
+      var $window = jQuery(window)
+      var viewport_top = $window.scrollTop()
+      var viewport_height = $window.height()
+      var viewport_bottom = viewport_top + viewport_height
+      var $elem = jQuery(elem)
+      var top = $elem.offset().top
+      var height = $elem.height()
+      var bottom = top + height
+    
+      return (top >= viewport_top && top < viewport_bottom) ||
+      (bottom > viewport_top && bottom <= viewport_bottom) ||
+      (height > viewport_height && top <= viewport_top && bottom >= viewport_bottom)
+    }
+    
+    jQuery( document ).ready( function() {
+      window.addEventListener('scroll', function(e) {
+        if( isOnScreen( jQuery( '#kit-cta' ) ) ) { /* Pass element id/class you want to check */
+          sidebar.removeClass("fixed-stat");
+         }	
+      });
+    });
+    </script>
   </body>
 </html>
